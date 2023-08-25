@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: rgb(172, 82, 82);
+    font-family: cursive;
+}
+.form{
+    margin: 0 10px;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 7px rgba(0,0,0,0.3);
+}
+.score{
+    text-align: right;
+    color: green;
+}
+.question{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.input{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border: solid 4px green;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    outline: none;
+}
+.input::placeholder{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgba(0,0,0,0.5);
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: 0.3s linear all;
+}
+.btn:hover{
+    filter: brightness(0.8);
+}
